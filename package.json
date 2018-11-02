@@ -1,0 +1,17 @@
+{
+    "name": "nuovostudio",
+    "version": "1.0.0"
+    "description": "Unresponsive portofolio website",
+    "main": "index.js",
+    "homepage": "https://syahrulmhd.github.io/nuovostudio",
+    "scripts": {
+        "deploy" : "gh-pages -d dist"
+    },
+    "author": "Muhammad Syahrul",
+    "license": " MIT",
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
+
+    
+    }
