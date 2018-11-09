@@ -82,7 +82,7 @@ body {
 #features {
     width: 90%;
     margin: 1rem auto 3rem auto;
-    border-bottom: #f3f3f3 1px solid;
+    /* border-bottom: #f3f3f3 1px solid; */
 }
 
 .holder {
@@ -115,7 +115,7 @@ body {
 }
 
 .img-holder h3 {
-    position: ;
+    position: relative;
     padding: 1rem auto;
 }
 
@@ -132,6 +132,12 @@ body {
 }
 
 /* Section Start */
+
+.section-title {
+    text-align: center;
+    color: #2f3b4c;
+    margin-bottom: 3rem;
+}
 
 .landing {
     width: 100%;
@@ -184,6 +190,36 @@ body {
     background-color: #f7f7f7;
 }
 
+/* team section star */
+
+.team {
+    margin-top: 3rem;
+    height: 520px;
+    text-align: center;
+}
+
+.photo-booth {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 5rem;
+}
+
+.wraper {
+    margin: auto;
+}
+
+.inner-img {
+    background-color: #2f2f2f;
+    height: 280px;
+    width: 200px;
+}
+
+.photo-text {
+    padding-top: 1rem;
+}
+
+/* footer start */
+
 .foot {
     margin: 5rem auto 0 auto;
     color: #2f3b4c;
@@ -191,6 +227,8 @@ body {
 }
 
 .expanded-foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #2f3b4c;
     height: 100px;
     margin-top: 2rem;
@@ -200,4 +238,16 @@ body {
 .feet {
     padding-top: 1.3rem;
     line-height: 1.35;
+    text-align: justify;
+}
+
+.link {
+    margin: auto;
+    width: 7rem;
+    height: 2rem;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fafbfe;
 }
